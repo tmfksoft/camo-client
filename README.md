@@ -1,3 +1,4 @@
+# camo-client
 A simple and light weight library to generate Camo URLs for use with self hosted copies of GitHub Camo.
 camo-client uses built in NodeJS libraries and requires no external dependencies.
 As a result camo-client will work on any platform that supporting NodeJS's crypto, querystring and url libraries.
@@ -38,4 +39,5 @@ If you wish to test everything is working out of the box,
 you will find a test.js in the camo-client directory.
 
 Run it like so:
+
 `env CAMO_KEY="abc1234" CAMO_DOMAIN="camo.domain" node test.js`
